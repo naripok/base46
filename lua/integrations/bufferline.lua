@@ -16,27 +16,27 @@ return {
 
    BufferLineBufferVisible = {
       fg = colors.light_grey,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
 
    -- for diagnostics = "nvim_lsp"
    BufferLineError = {
       fg = colors.light_grey,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineErrorDiagnostic = {
       fg = colors.light_grey,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
 
    -- close buttons
    BufferLineCloseButton = {
       fg = colors.light_grey,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineCloseButtonVisible = {
       fg = colors.light_grey,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineCloseButtonSelected = {
       fg = colors.red,
@@ -44,7 +44,7 @@ return {
    },
    BufferLineFill = {
       fg = colors.grey_fg,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferlineIndicatorSelected = {
       fg = colors.black,
@@ -54,11 +54,11 @@ return {
    -- modified
    BufferLineModified = {
       fg = colors.red,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineModifiedVisible = {
       fg = colors.red,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineModifiedSelected = {
       fg = colors.green,
@@ -67,16 +67,16 @@ return {
 
    -- separators
    BufferLineSeparator = {
-      fg = colors.black2,
-      bg = colors.black2,
+      fg = colors.darker_black,
+      bg = colors.darker_black,
    },
    BufferLineSeparatorVisible = {
-      fg = colors.black2,
-      bg = colors.black2,
+      fg = colors.darker_black,
+      bg = colors.darker_black,
    },
    BufferLineSeparatorSelected = {
-      fg = colors.black2,
-      bg = colors.black2,
+      fg = colors.darker_black,
+      bg = colors.darker_black,
    },
 
    -- tabs
@@ -85,7 +85,7 @@ return {
       bg = colors.one_bg3,
    },
    BufferLineTabSelected = {
-      fg = colors.black2,
+      fg = colors.darker_black,
       bg = colors.nord_blue,
    },
    BufferLineTabClose = {
@@ -103,7 +103,7 @@ return {
 
    BufferLineDuplicate = {
       fg = "NONE",
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
    BufferLineDuplicateSelected = {
       fg = colors.red,
@@ -111,7 +111,7 @@ return {
    },
    BufferLineDuplicateVisible = {
       fg = colors.blue,
-      bg = colors.black2,
+      bg = colors.darker_black,
    },
 
    -- custom area
