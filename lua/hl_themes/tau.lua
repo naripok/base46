@@ -5,7 +5,7 @@ M.base_30 = {
    darker_black = "#000000",
    black = "#050505",
    black2 = "#1a1a1a",
-   one_bg = "#050505", -- real bg of onedark
+   one_bg = "#282c34", -- real bg of onedark
    one_bg2 = "#353b45",
    one_bg3 = "#30343c",
    grey = "#42464e",
@@ -35,8 +35,8 @@ M.base_30 = {
 }
 
 M.base_16 = {
-   base00 = "#1e222a",
-   base01 = "#353b45",
+   base00 = "#050505",
+   base01 = "#1a1a1a",
    base02 = "#3e4451",
    base03 = "#545862",
    base04 = "#565c64",
