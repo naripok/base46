@@ -5,7 +5,7 @@ M.base_30 = {
    darker_black = "#000000",
    black = "#050505",
    black2 = "#1a1a1a",
-   one_bg = "#282c34", -- real bg of onedark
+   one_bg = "#050505", -- real bg of onedark
    one_bg2 = "#353b45",
    one_bg3 = "#30343c",
    grey = "#42464e",
@@ -53,6 +53,6 @@ M.base_16 = {
    base0F = "#be5046",
 }
 
-M = require("base46").override_theme(M, "onedark")
+M = require("base46").override_theme(M, "tau")
 
 return M
